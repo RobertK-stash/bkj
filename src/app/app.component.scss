@@ -1,0 +1,269 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background: #FFFFFF;
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+  z-index: 1;
+  .header-img {
+    padding: 12px 150px;
+  }
+  .header-navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    div {
+      cursor: pointer;
+      font-family: "Arlrdbd";
+      font-size: 26px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: left;
+      color: #000000;
+      margin: auto;
+      padding: 0px 30px;
+    }
+  }
+}
+.description-container {
+  background: transparent url('../assets/img/description.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  height: auto;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-top: 100px;
+  line-height: initial;
+  .description-header {
+    text-align: left;
+    font-size: 48px;
+    font-family: "Arlrdbd";
+    letter-spacing: 6.24px;
+    color: #FFFFFF;
+    padding-top: 140px;
+    margin-left: 10%;
+    max-width: 30%;
+  }
+  .description-content {
+    hr {
+      display: block;
+      height: 3px;
+      border: 0;
+      border-top: 3px solid #0AB5FD;
+      margin: 1em 0;
+      padding: 0;
+      width: 20%;
+      margin-bottom: 75px;
+    }
+    text-align: left;
+    font-size: 25px;
+    font-family: "Arlrdbd";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 200px;
+    max-width: 40%;
+  }
+  .description-paragraph {
+    margin-top: 35px;
+  }
+}
+.pillars-container {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: initial;
+  .pillar {
+    background: transparent linear-gradient(231deg, #0EB6FF 0%, #075B80 100%) 0% 0% no-repeat padding-box;
+    margin: 0px 12px;
+    box-shadow: 0px 3px 6px #00000029;
+    .pillar-header {
+      text-align: left;
+      font-size: 30px;
+      font-family: "Arlrdbd";
+      letter-spacing: 0.3px;
+      color: #FFFFFF;
+      padding-top: 95px;
+      padding-bottom: 80px;
+      text-align: center;
+    }
+    .pillar-content {
+      text-align: left;
+      font-size: 25px;
+      font-family: "Arlrdbd";
+      letter-spacing: 0.25px;
+      color: #FFFFFF;
+      padding-bottom: 80px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
+.benefits-contaier {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px;
+  padding-top: 300px;
+  line-height: initial;
+  .benefits-header {
+    text-align: left;
+    font-size: 90px;
+    font-family: "Arlrdbd";
+    letter-spacing: 0px;
+    margin-bottom: 65px;
+  }
+  .benefits-content {
+    text-align: left;
+    font-size: 34px;
+    font-family: "Arlrdbd";
+    letter-spacing: 0.34px;
+    color: #000000;
+    margin-bottom: 120px;
+  }
+  .benefits-paragraph {
+    margin-top: 45px;
+  }
+  .book-btn {
+    background: #0EB6FF 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    font-size: 30px;
+    font-family: "Arlrdbd";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: 0px;
+    filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+    cursor: pointer;
+  }
+}
+.details-container {
+  background: transparent url('../assets/img/details.png') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  background-size: cover;
+  height: auto;
+  margin-top: 250px;
+  line-height: initial;
+  .details-header {
+    text-align: left;
+    font-size: 50px;
+    font-family: "Arlrdbd";
+    text-shadow: 0px 3px 6px #08030329;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 15%;
+    max-width: 55%;
+    padding-top: 290px;
+    padding-bottom: 55px;
+  }
+  .details-content {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Arlrdbd";
+    color: #FFFFFF;
+    margin-left: 15%;
+    max-width: 55%;
+    padding-bottom: 290px;
+  }
+  .details-paragraph {
+    margin-top: 35px;
+  }
+}
+.compatible-container {
+  line-height: initial;
+  margin-top: 140px;
+  .compatible-header {
+    text-align: left;
+    font-size: 40px;
+    font-family: "Arlrdbd";
+    color: #909090;
+    width: 660px;
+    margin: auto;
+  }
+  .compatible-img-container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    .compatible-img {
+      width: 100%;
+    }
+  }
+  .compatible-container-separator {
+    height: 4px;
+    width: 60%;
+    min-width: 1000px;
+    background: #0ab5fd;
+    background: linear-gradient(90deg, 
+    #0ab5fd 0.00%, 
+    #090f12 100.00%);
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+.trusted-container {
+  line-height: initial;
+  margin-top: 155px;
+  .trusted-header {
+    text-align: left;
+    font-size: 40px;
+    font-family: "Arlrdbd";
+    color: #909090;
+    width: 550px;
+    margin: auto;
+  }
+  .trusted-img-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .trusted-img {
+      margin: 0px 20px;
+      flex-grow: 1;
+      object-fit: scale-down;
+    }
+  }
+  .trusted-container-separator {
+    height: 4px;
+    width: 90%;
+    min-width: 1000px;
+    background: #0ab5fd;
+    background: linear-gradient(90deg, 
+    #0ab5fd 0.00%, 
+    #090f12 100.00%);
+    margin: auto;
+  }
+}
+.footer-contaier {
+  margin-top: 240px;
+  background: transparent url('../assets/img/footer.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .footer-header {
+    padding-top: 300px;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Arlrdbd";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #08030329;
+    margin-bottom: 155px;
+  }
+  .contact-btn {
+    background: #0EB6FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFCFC59;
+    border-radius: 9px;
+    font-size: 30px;
+    font-family: "Arlrdbd";
+    color: #FFFFFF;
+    padding: 25px 100px;
+    margin-bottom: 400px;
+    cursor: pointer;
+  }
+}
+.highlight-blue {
+  color: #0AB5FD;
+}

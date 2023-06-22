@@ -1,0 +1,71 @@
+
+<div class="header-container">
+  <img class="header-img" src="assets/img/logo.png" />
+  <div class="header-navigation">
+    <div (click)="scrollTop()">Home</div>
+    <div (click)="scroll(about)">About Us</div>
+    <div (click)="scroll(contact)">Contact</div>
+  </div>
+</div>
+<div class="description-container">
+  <div class="description-header">WHAT IS <span class="highlight-blue">WAN ACCELERATION?</span>
+  </div>
+  <div class="description-content">
+    <hr/>
+    <div class="description-paragraph">Technologies that accelerate data transfers and eliminate data management challenges are known as “Wan Acceleration”.</div>
+    <div class="description-paragraph">As Big Data grows, the ability to keep up with it is waning. We bring new tools to help companies transfer and secure large amounts of data across long distances.</div>
+    <div class="description-paragraph">We work with companies whose <span class="highlight-blue">patented AI technologies</span> accelerate your existing technologies without the need to replace them, thereby dramatically accelerating your WAN.</div>
+  </div>
+</div>
+<div class="pillars-container">
+  <div class="pillar">
+    <div class="pillar-header">Unrivalled performance</div>
+    <div class="pillar-content">BKJ WORKS can help you find solutions to dramatically improve your data throughput to up to 98% of bandwidth, regardless of distance.</div>
+  </div>
+  <div class="pillar">
+    <div class="pillar-header">Artificial intelligence</div>
+    <div class="pillar-content">AI underpins the patented technologies we leverage to provide process intelligence, reduce latency, and mitigate patent loss.</div>
+  </div>
+  <div class="pillar">
+    <div class="pillar-header">Secure & compliant</div>
+    <div class="pillar-content">All the performance without touching any of your data so we can maintain secure protocols, governance, and compliance.</div>
+  </div>
+</div>
+<div class="benefits-contaier" #about>
+  <div class="benefits-header">What are <span class="highlight-blue">the benefits?</span></div>
+  <div class="benefits-content">
+    <div class="benefits-paragraph">BKJ WORKS addresses and resolves many key issues faced by companies current infrastructure.</div>
+    <div class="benefits-paragraph">Remove unacceptable time lags that cause cost increases, risk failure, and open you up to security risks.</div>
+  </div>
+  <button class="book-btn" (click)="openDialog()">Book a call</button>
+</div>
+<div class="details-container">
+  <div class="details-header"><span class="highlight-blue">Accelerate cloud performance</span> while minimising costs.</div>
+  <div class="details-content">
+    <div class="details-paragraph">Achieve over 10 times improvement on performance of data movement to / from the Cloud irrespective of compression or encrypted data formats.</div>
+    <div class="details-paragraph">Simply choose your technology and see the difference. Organisations are finding transfer speeds to Cloud restrictive while costs spiral. Our solutions enable massive amounts of data transfer to and from the Cloud.</div>
+  </div>
+</div>
+<div class="compatible-container">
+  <div class="compatible-header">Our solutions are compatible with</div>
+  <div class="compatible-img-container">
+    <img class="compatible-img" src="assets/img/compatible.png" />
+  </div>
+  <div class="compatible-container-separator"></div>
+</div>
+<div class="trusted-container">
+  <div class="trusted-header">Our solutions are trusted by</div>
+  <div class="trusted-img-container">
+    <img class="trusted-img" src="assets/img/usnavy.png" />
+    <img class="trusted-img" src="assets/img/imb.png" />
+    <img class="trusted-img" src="assets/img/investec.png" />
+    <img class="trusted-img" src="assets/img/allianz.png" />
+    <img class="trusted-img" src="assets/img/cvs.png" />
+    <img class="trusted-img" src="assets/img/nsa.png" />
+  </div>
+  <div class="trusted-container-separator"></div>
+</div>
+<div class="footer-contaier" #contact>
+  <div class="footer-header">Ready to start sharing securely?</div>
+  <button class="contact-btn" (click)="openDialog()">Contact us</button>
+</div>
