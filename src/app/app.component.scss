@@ -840,6 +840,7 @@
       margin-right: 100px;
       margin-left: 50px;
       margin-top: 60px;
+      padding: 0px;
       display: flex;
       flex-wrap: wrap;
       .trusted-img {
@@ -1089,6 +1090,221 @@
       line-height: 12px;
       padding: 5px 32px;
       margin-bottom: 133px;
+    }
+  }
+}
+@media screen and (max-width : 460px) {
+  .header-container {
+    .header-img {
+      padding: 12px 26px;
+      width: 100px;
+      padding-right: 16px;
+    }
+    .header-navigation {
+      margin-right: 15px;
+      div {
+        font-size: 10px;
+        padding: 0px 8px;
+        letter-spacing: 0px;
+      }
+    }
+  }
+  .description-container {
+    margin-top: 46px;
+    background-position: 75%;
+    .description-header {
+      font-size: 19px;
+      line-height: 24px;
+      padding-top: 37px;
+      margin-left: 26px;
+      max-width: 70%;
+    }
+    .description-content {
+      hr {
+        display: block;
+        height: 3px;
+        border: 0;
+        border-top: 2px solid #0AB5FD;
+        margin: 1em 0;
+        padding: 0;
+        width: 20%;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+      }
+      font-size: 11px;
+      line-height: 13px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 16px;
+      padding-bottom: 40px;
+      max-width: 100%;
+      margin-left: 0px;
+    }
+    .description-paragraph {
+      margin-top: 16px;
+    }
+  }
+  .pillars-container {
+    flex-direction: column;
+    padding-top: 72px;
+    padding-left: 25px;
+    padding-right: 25px;
+    .pillar {
+      margin: 0px;
+      margin-bottom: 35px;
+      .pillar-header {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 48px;
+        padding-bottom: 44px;
+      }
+      .pillar-content {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 45px;
+        padding-left: 31px;
+        padding-right: 31px;
+      }
+    }
+  }
+  .benefits-contaier {
+    max-width: unset;
+    padding: 22px;
+    padding-top: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .benefits-header {
+      font-size: 19px;
+      line-height: 23px;
+      margin-bottom: 0px;
+    }
+    .benefits-content {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 26px;
+      letter-spacing: 0.12px;
+      margin-top: 14px;
+    }
+    .benefits-paragraph {
+      margin-top: 12px;
+    }
+    .book-btn {
+      border-radius: 9px;
+      font-size: 9px;
+      line-height: 10px;
+      padding: 7px 8px;
+      width: 70px;
+    }
+  }
+  .details-container {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .details-header {
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: 0px;
+      max-width: 100%;
+      padding-top: 53px;
+      padding-bottom: 22px;
+      padding-right: 50px;
+      padding-left: 50px;
+      text-align: center;
+    }
+    .details-content {
+      font-size: 10px;
+      line-height: 12px;
+      margin-left: 28px;
+      margin-right: 28px;
+      max-width: 100%;
+      padding-bottom: 60px;
+    }
+    .details-paragraph {
+      margin-top: 16px;
+    }
+  }
+  .compatible-container {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .compatible-header {
+      font-size: 14px;
+      line-height: 16px;
+      width: auto;
+    }
+    .compatible-img-container {
+      width: auto;
+      margin: 0px 21px;
+      margin-top: 40px;
+      .compatible-img {
+        width: 100%;
+      }
+    }
+    .compatible-container-separator {
+      height: 1px;
+      width: auto;
+      min-width: unset;
+      min-width: 75%;
+      margin: auto;
+      margin-top: 30px;
+    }
+  }
+  .trusted-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .trusted-header {
+      font-size: 14px;
+      line-height: 16px;
+      width: auto;
+    }
+    .trusted-img-container {
+      width: auto;
+      margin-right: 35px;
+      margin-left: 15px;
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      .trusted-img {
+        margin: 0px 5px;
+        display: none;
+      }
+      .trusted-img-small {
+        max-width: 100%;
+        margin: 0px 5px;
+        display: block;
+      }
+    }
+    .trusted-container-separator {
+      margin-top: 30px;
+      height: 1px;
+      width: 90%;
+      min-width: unset;
+    }
+  }
+  .footer-contaier {
+    margin-top: 70px;
+    .footer-header {
+      padding-top: 65px;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0px;
+      margin-bottom: 70px;
+    }
+    .contact-btn {
+      border-radius: 9px;
+      font-size: 9px;
+      line-height: 10px;
+      padding: 4px 26px;
+      margin-bottom: 100px;
     }
   }
 }

@@ -40,3 +40,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 90vh !important;
   }
 }
+
+@media screen and (max-width : 460px) {
+  .cdk-overlay-pane {
+    width: 85vw !important;
+    max-width: 85vw !important;
+    height: 90vh !important;
+  }
+}
