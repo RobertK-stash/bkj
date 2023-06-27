@@ -2,7 +2,8 @@
   <div class="modal-container">
     <img class="modal-img" src="assets/img/modal.png" />
     <div class="modal-form-container">
-      <img class="close-icon" (click)="onCloseClick()" src="assets/img/x.svg" />
+      <img class="modal-img-small" src="assets/img/modal_small.png" />
+      <fa-icon [icon]="faX" class="close-icon" (click)="onCloseClick()"></fa-icon>
       <form class="form" (ngSubmit)="onSubmit()" #signUpForm="ngForm">
         <div class="form-group">
           <label for="name">Full name</label>

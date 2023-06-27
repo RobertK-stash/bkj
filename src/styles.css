@@ -3,8 +3,40 @@
   font-family: "Arlrdbd";
   src: local("Arlrdbd"), url(./assets/ARLRDBD.ttf) format("truetype");
 }
+@font-face {
+  font-family: "ArialBlack";
+  src: local("ArialBlack"), url(./assets/ArialBlack.ttf) format("truetype");
+}
 body {
   margin: 0px;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media screen and (max-width : 1800px) {
+  .cdk-overlay-pane {
+    width: 70vw !important;
+    height: 70vh !important;
+    max-width: 80vw !important;
+  }
+}
+@media screen and (max-width : 1400px) {
+  .cdk-overlay-pane {
+    width: 90vw !important;
+    max-width: 90vw !important;
+    height: 65vh !important;
+  }
+}
+@media screen and (max-width : 992px) {
+  .cdk-overlay-pane {
+    width: 500px !important;
+    height: 90vh !important;
+  }
+}
+@media screen and (max-width : 576px) {
+  .cdk-overlay-pane {
+    width: 75vw !important;
+    max-width: 75vw !important;
+    height: 90vh !important;
+  }
+}
